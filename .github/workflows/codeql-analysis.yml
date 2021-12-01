@@ -44,7 +44,7 @@ jobs:
         echo "java version"
         java -version
         
-    - run: Use java 1.5
+    - name: Use java 1.5
       uses: actions/setup-java@v1
       with:
         java-version: 15
